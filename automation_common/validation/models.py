@@ -171,7 +171,7 @@ class PassiveEffects(AutomationModel):
     check_adv: Optional[List[AnnotatedString255]]
     check_dis: Optional[List[AnnotatedString255]]
     dc_bonus: Optional[IntExpression]
-    specific_save_bonus: Optional[List[AnnotatedString255]]
+    specific_save_bonus: Optional[Dict[str255, AnnotatedString255]]
 
 
 class AttackInteraction(AutomationModel):
